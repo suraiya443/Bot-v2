@@ -188,7 +188,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
   if (event.body.indexOf("bot") == 0 || (event.body.indexOf("Bot") == 0)) {
     var msg = {
-      body: `╭──────•◈•──────╮\n         𝐒𝐀𝐍𝐈 𝐁𝐎𝐓        \n\n 🗣️Dᴇᴀʀ, ${name}\n 💌:${rand} \n\n╰──────•◈•──────╯`
+      body: `╭──────•◈•──────╮\n        ➳♥ 𝐒𝐀𝐍𝐈 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘➳♥        \n\n 🗣️Dᴇᴀʀ, ${name}\n 💌:${rand} \n\n╰──────•◈•──────╯`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
